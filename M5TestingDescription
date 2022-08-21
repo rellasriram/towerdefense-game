@@ -1,0 +1,13 @@
+Test 1: Test Tower Drag after starting the game on Easy
+Test 2: Test Tower Drag after starting the game on Medium
+Test 3: Test Tower Drag after starting the game on Hard
+Test 4: Check if money increases for each tower to enemy attack on Easy
+Test 5: Check if money increases for each tower to enemy attack on Medium
+Test 6: Check if money increases for each tower to enemy attack on Hard
+Test 7: Check if there are multiple enemies on screen on Easy
+Test 8: Check if there are multiple enemies on screen on Medium
+Test 9: Check if there are multiple enemies on screen on Hard
+Test 10: Check if enemies die on Hard
+
+
+For one of the rubic criteria we decided on the ability for the player to drag towers during the game. We want to test whether the drag functionality works on all the screens. We added the functionality where the tower attacks the enemy and one way the player can earn money is through these attacks. So we wanted to test whether the money increases on each screen for the attacks. The core requirement for M5 is to have multiple enemies on the path. So we wanted to check whether they appear once we start the game. The last test checks whether the enemies actually die after the attack. We didn’t implement retaliation as it isn’t required for this milestone. We plan to do it during M6.

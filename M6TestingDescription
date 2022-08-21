@@ -1,0 +1,22 @@
+Test 1: Test whether win screen appears on ease mode
+Test 2: Test whether win screen appears on medium mode
+Test 3: Test whether win screen appears on hard mode
+Test 4: Test whether towers can be updated on easy screen
+Test 5: Test whether towers can be updated on medium screen
+Test 6: Test whether towers can be updated on hard screen
+Test 7: Check if final boss appears on the easy screen
+Test 8: Check if final boss appears on the medium screen
+Test 9: Check if final boss appears on the hard screen 
+Test 10: Check whether monument health is 1000 when enemies are defeated
+
+
+
+
+For this milestone, we decide to test the implementation of the win screen as if it run correctly. We test 
+if the win screen appears when the player successfully defenses the monument. We test this function in three 
+different modes. We added the ability to update the towers to different tower only when the player has enough 
+time (there is a specific time limit for each difficulty). We test this functionality to make sure the implement
+run without any error or delay, and the money is reduced currently when the tower updated. We implement the final 
+boss to be the strongest. The damage of the final boss is also very effective to towers. This is the core implement 
+of this milestone for our team. So that we test if the final boss appears on three different modes with different stats. 
+We also implement and test to see if the monument health is 1000 when enemies are defeated  

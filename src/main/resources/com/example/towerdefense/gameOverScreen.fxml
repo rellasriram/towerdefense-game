@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefense.GameOverController">
+   <children>
+      <Text layoutX="101.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME OVER!" textAlignment="CENTER" wrappingWidth="399.0">
+         <font>
+            <Font name="Arial Bold" size="60.0" />
+         </font>
+      </Text>
+      <Button fx:id="retry" layoutX="140.0" layoutY="413.0" mnemonicParsing="false" onAction="#retry" prefHeight="38.0" prefWidth="96.0" text="Try Again">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="exit" layoutX="368.0" layoutY="413.0" mnemonicParsing="false" onAction="#exit" prefHeight="38.0" prefWidth="96.0" text="Exit" />
+      <Text layoutX="204.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Better luck next time!">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="253.0" fitWidth="263.0" layoutX="315.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sad.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="72.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time (seconds) taken for enemies to destroy the monument:" wrappingWidth="125.8173828125" />
+      <Text layoutX="72.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Money Remaining (Hint: use this money to buy more towers to defend against the enemies!):" wrappingWidth="114.4150390625" />
+      <Text layoutX="72.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monument Health Remaining:" />
+      <Label fx:id="label1" layoutX="210.0" layoutY="185.0" text="Text" textFill="RED">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="197.0" layoutY="252.0" text="Text" textFill="RED">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="246.0" layoutY="345.0" text="Text" textFill="RED" />
+   </children>
+</AnchorPane>
